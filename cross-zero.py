@@ -1,3 +1,14 @@
+field = []
+for i in range(5):
+    field.append([])
+    for ii in  range(5):
+        if i%2==1:
+            field[i].append("-")
+        elif ii % 2 == 0:
+            field[i].append(" ")
+        else:
+            field[i].append("|")
+
 
 
 def game():
